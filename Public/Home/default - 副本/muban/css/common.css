@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+/*css reset*/
+body {
+    margin:0;
+    font-family:"微软雅黑";
+    font-size:14px;
+}
+ul,li,dl,ol,h1,h2,h3,h4,h5,h6,p,div {
+    margin:0;
+    padding:0;
+}
+ul,ol,dl {
+    list-style:none;
+}
+a {
+    color:#000;
+    text-decoration:none;
+}
+a:hover {
+    color:#000;
+    text-decoration:none;
+}
+.clear{
+    clear:both;
+}
+.container {
+    margin:0 auto;
+    /* padding: 0 */
+}
+header,main{
+    width:100%;
+}
+.left {
+    float:left;
+    display: inline-block;
+}
+.right {
+    float:right;
+    display: inline-block;
+}
